@@ -1,0 +1,58 @@
+#topo{
+    justify-content: flex-end;
+}
+
+#comentarios{
+   flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+#comentarios{
+    width: 100vw;
+}
+
+#cadastro{
+    background-color: #E9ECEF;
+}
+
+#addVouchers{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around
+    
+}
+
+
+
+.inputNumbers{
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 200px;
+
+
+}
+
+
+.inputident{
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 200px;
+
+}  
+
+
+
+#botaoAddVouchers{
+    width: 200px;
+    align-items:  center;
+   
+}
+
