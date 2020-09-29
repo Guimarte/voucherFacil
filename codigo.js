@@ -18,16 +18,14 @@ function array(a,b){
 let botaoVoucher = document.getElementById('botaoAddVouchers').addEventListener('click',array)
 
 function voucherID(){
-    let cadastroClienteVoucher = [{}]
+    
     let nomedoCliente = document.getElementById('nomeCliente').value
     let NumerodoVoucher = document.getElementById('voucherCliente').value
     let voucherConvertido = Number.parseInt(NumerodoVoucher)
-    
-    cadastroClienteVoucher.nome = nomedoCliente
-    cadastroClienteVoucher.voucher = voucherConvertido
     console.log(cadastroClienteVoucher)
+    cadastroClienteVoucher.push([{"Nome":nomedoCliente, "Voucher":voucherConvertido}])
     
     
 }
-
+let cadastroClienteVoucher = [{}]
 let botaoVoucherID = document.getElementById('botaoVouchersId').addEventListener('click',voucherID)
