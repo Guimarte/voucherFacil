@@ -27,5 +27,5 @@ function voucherID(){
     
     
 }
-let cadastroClienteVoucher = [{}]
+let cadastroClienteVoucher = []
 let botaoVoucherID = document.getElementById('botaoVouchersId').addEventListener('click',voucherID)
